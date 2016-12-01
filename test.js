@@ -40,7 +40,7 @@ console.log("reading input...");
 var version = process.version;
 console.log("used node version " + version);
 if(version.substring(0,2) != "v4"){
-  log.error("please use node version 4.x")
+  log.error("please use node version 4.x");
 } else{
   if (options.file){
     inquirerprompt.setShowfilename(true);
